@@ -15,17 +15,17 @@ import java.sql.PreparedStatement;
  * @author Nguyen Bae
  */
 public class UserDAO {
-    public User checkLogin(String username, String password) throws Exception{
-        String query = "Select username, password from User";
-        try(
-                Connection conn = DatabaseHelper.connectSQLServer();
-                PreparedStatement pstmt = conn.prepareStatement(query);
-            ){
-            
-        }
-        catch()
-        {
-            
-        }
-    }
+//    public User checkLogin(String username, String password) throws Exception{
+//        String query = "Select username, password from User";
+//        try{
+//                Connection conn = DatabaseHelper.connectSQLServer();
+//                PreparedStatement pstmt = conn.prepareStatement(query);
+//            {
+//            
+//        }
+//        catch(Exception e)
+//        {
+//            System.out.println(e);
+//        }
+//    }
 }
